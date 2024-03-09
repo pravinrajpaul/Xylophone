@@ -31,7 +31,7 @@
                                                     <color key="baseBackgroundColor" red="0.59134794957332015" green="0.42883491818171765" blue="0.92048975012519141" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="CButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u3x-CY-hih"/>
+                                                    <action selector="keyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s8h-ze-CfI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -53,7 +53,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="DButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cft-2j-5JB"/>
+                                                    <action selector="keyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gge-nM-MuI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -74,7 +74,7 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="EButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ghf-Bt-dNO"/>
+                                                    <action selector="keyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jhW-3X-DOy"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -96,7 +96,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="FButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VJH-m9-8Jj"/>
+                                                    <action selector="keyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWa-MA-eMa"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -118,7 +118,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="GButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYX-ZQ-hRu"/>
+                                                    <action selector="keyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HD9-l2-xrf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -140,7 +140,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="AButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNU-GK-VeB"/>
+                                                    <action selector="keyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5xg-Dq-qsm"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -162,7 +162,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="BButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yh-0k-Rew"/>
+                                                    <action selector="keyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8s-r6-JKW"/>
                                                 </connections>
                                             </button>
                                         </subviews>

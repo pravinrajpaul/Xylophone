@@ -17,33 +17,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func CButton(_ sender: UIButton) {
-        playSound(fileName:"C")
+    @IBAction func keyTapped(_ sender: UIButton){
+        playSound(fileName: (sender.titleLabel?.text)!)
     }
     
-    @IBAction func DButton(_ sender: UIButton) {
-        playSound(fileName:"D")
-    }
-    
-    @IBAction func EButton(_ sender: UIButton) {
-        playSound(fileName:"E")
-    }
-    
-    @IBAction func FButton(_ sender: UIButton) {
-        playSound(fileName:"F")
-    }
-    
-    @IBAction func GButton(_ sender: UIButton) {
-        playSound(fileName:"G")
-    }
-    
-    @IBAction func AButton(_ sender: UIButton) {
-        playSound(fileName:"A")
-    }
-        
-    @IBAction func BButton(_ sender: UIButton) {
-        playSound(fileName:"B")
-    }
     
     func playSound(fileName:String) {
         guard let url = Bundle.main.url(forResource: fileName, withExtension: "wav") else
